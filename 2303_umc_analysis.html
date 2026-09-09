@@ -147,7 +147,7 @@
   <a href="#step1" class="pad active" id="nav1">1．現金流六大規則</a>
   <a href="#step2" class="pad" id="nav2">2．基本資訊</a>
   <a href="#step3" class="pad" id="nav3">3．法說會深入</a>
-  <span class="pad locked">4．營收趨勢</span>
+  <a href="#step4" class="pad" id="nav4">4．營收趨勢</a>
   <a href="#step5" class="pad" id="nav5">5．前瞻本益比</a>
   <a href="#step6" class="pad" id="nav6">6．投資決策</a>
 </nav>
@@ -361,10 +361,11 @@
       <tr><td>2026/07/17</td><td>台股重挫連動，出處置後首日再度跌停鎖死</td><td>144元</td></tr>
       <tr><td>2026/07月中旬</td><td>盤中最高點，改寫37年新高</td><td>185.5元</td></tr>
       <tr><td>2026/08/28</td><td>輝達財報激勵，外資單日買超8.9萬張</td><td>130元（漲停）</td></tr>
-      <tr class="note-row"><td>2026/09/08（今日）</td><td>下跌3.1%</td><td>138元</td></tr>
+      <tr class="note-row"><td>2026/09/08</td><td>下跌3.1%</td><td>138元</td></tr>
+      <tr class="note-row"><td>2026/09/09（今日）</td><td>本次搜尋未能取得當日即時報價</td><td>請以券商App為準</td></tr>
     </tbody>
   </table>
-  <p style="color:var(--ink-dim);font-size:0.85em;">snap-note：以上股價節點來自 TVBS、自由時報、今周刊等新聞報導搜尋結果，即時股價會隨盤中波動，僅供脈絡參考，正式交易應以券商App/看盤軟體即時報價為準。</p>
+  <p style="color:var(--ink-dim);font-size:0.85em;">snap-note：以上股價節點來自 TVBS、自由時報、今周刊等新聞報導搜尋結果，即時股價會隨盤中波動，僅供脈絡參考，正式交易應以券商App/看盤軟體即時報價為準。9/9當日盤中報價因搜尋工具的時間延遲未能取得，非常抱歉無法在報告中提供精確數字。</p>
 
   <h3 style="margin-top:32px;">近期獲利表現</h3>
   <table>
@@ -420,6 +421,57 @@
     <strong>⚠️ 關鍵落差：</strong>目前股價（138元）隱含的成長預期，很大一部分建立在矽光子、英特爾合作這類「2027年以後才會兌現」的故事上，但法說會逐字稿顯示這些項目都還停留在「驗證中」「規劃中」，沒有具體的營收貢獻時間表與金額。已經兌現的Q2數字與Q3展望本身是正面的，但單獨撐不起目前的評價水準。
   </div>
   <p style="color:var(--ink-dim);font-size:0.85em;">snap-note：以上法說會內容整理自工商時報、經濟日報、NOWnews等財經媒體對2026Q2法說會的報導，非逐字稿原文複製，若需要完整原文請至公開資訊觀測站法說會專區查詢。</p>
+
+  <h3 style="margin-top:28px;">補充：英特爾合作與可插拔光模組的營收貢獻時間表（較新一則報導）</h3>
+  <ul>
+    <li>與英特爾12奈米合作：預計<b>2026年完成驗證、2027年量產</b>，市場人士估<b>2028年可貢獻約6%的營業利益</b></li>
+    <li>可插拔光模組業務：預計<b>2028年開始產生明顯營收貢獻</b>，若取得10%市占率，估可創造2-3億美元營收</li>
+    <li>新加坡第三期新廠：規劃<b>2026年正式啟用量產</b>，成為地緣政治轉單紅利的重要產能支撐</li>
+  </ul>
+  <p>這進一步確認：現在能實質驗證的只有「新加坡三期新廠量產」這一項（2026年內），英特爾合作與光模組兩項營收貢獻要等到2027-2028年才會顯現，時間拉得比原本想像更長。</p>
+</section>
+
+<section id="step4">
+  <div class="step-label">第 4 步／共 6 步：營收趨勢視覺化</div>
+  <h2 class="section-title">月營收連8個月穩定向上，年增率明顯加速</h2>
+  <p class="lede">2026年1月至8月合併月營收，數字已實際兌現法說會展望，不是尚未發生的預估：</p>
+
+  <div class="chart-block">
+    <div class="chart-title">2026年月營收趨勢（億元）</div>
+    <svg viewBox="0 0 720 260" width="100%" height="260">
+      <line x1="40" y1="220" x2="700" y2="220" class="axis-line"/>
+      <!-- max 250.45 -> 200px -->
+      <g><rect x="50" y="53" width="46" height="167" fill="var(--wafer)"/><text x="73" y="47" class="bar-value" text-anchor="middle">208.6</text><text x="73" y="238" class="bar-label" text-anchor="middle">1月</text></g>
+      <g><rect x="110" y="65" width="46" height="155" fill="var(--trough)"/><text x="133" y="59" class="bar-value" text-anchor="middle">193.5</text><text x="133" y="238" class="bar-label" text-anchor="middle">2月</text></g>
+      <g><rect x="170" y="54" width="46" height="166" fill="var(--wafer)"/><text x="193" y="48" class="bar-value" text-anchor="middle">208.3</text><text x="193" y="238" class="bar-label" text-anchor="middle">3月</text></g>
+      <g><rect x="230" y="39" width="46" height="181" fill="var(--wafer)"/><text x="253" y="33" class="bar-value" text-anchor="middle">226.6</text><text x="253" y="238" class="bar-label" text-anchor="middle">4月</text></g>
+      <g><rect x="290" y="37" width="46" height="183" fill="var(--wafer)"/><text x="313" y="31" class="bar-value" text-anchor="middle">229.4</text><text x="313" y="238" class="bar-label" text-anchor="middle">5月</text></g>
+      <g><rect x="350" y="35" width="46" height="185" fill="var(--wafer)"/><text x="373" y="29" class="bar-value" text-anchor="middle">231.3</text><text x="373" y="238" class="bar-label" text-anchor="middle">6月</text></g>
+      <g><rect x="410" y="30" width="46" height="190" fill="var(--wafer)"/><text x="433" y="24" class="bar-value" text-anchor="middle">238.4</text><text x="433" y="238" class="bar-label" text-anchor="middle">7月</text></g>
+      <g><rect x="470" y="20" width="46" height="200" fill="var(--peak)"/><text x="493" y="14" class="bar-value" text-anchor="middle">250.5</text><text x="493" y="238" class="bar-label" text-anchor="middle">8月</text></g>
+    </svg>
+    <p style="color:var(--ink-dim);font-size:0.82em;">米色＝8個月高點（8月），粉色＝8個月低點（2月）</p>
+  </div>
+
+  <h3 style="margin-top:28px;">年增率趨勢：從個位數成長，加速到雙位數成長</h3>
+  <table>
+    <thead><tr><th>月份</th><th>營收(億)</th><th>年增率</th><th>月增率</th></tr></thead>
+    <tbody>
+      <tr><td>1月</td><td>208.6</td><td class="pos">+5.3%</td><td>+8.2%</td></tr>
+      <tr><td>2月</td><td>193.5</td><td class="pos">+6.3%</td><td class="neg">-7.3%</td></tr>
+      <tr><td>3月</td><td>208.3</td><td class="pos">+4.9%</td><td class="pos">+7.7%</td></tr>
+      <tr><td>4月</td><td>226.6</td><td class="pos">+10.8%</td><td class="pos">+8.8%</td></tr>
+      <tr><td>5月</td><td>229.4</td><td class="pos">+17.8%</td><td class="pos">+1.2%</td></tr>
+      <tr><td>6月</td><td>231.3</td><td class="pos">+22.9%</td><td class="pos">+0.8%</td></tr>
+      <tr><td>7月</td><td>238.4</td><td class="pos">+19.0%</td><td class="pos">+3.1%</td></tr>
+      <tr><td>8月</td><td>250.5</td><td class="pos">+30.7%</td><td class="pos">+5.0%</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <strong>這是六個步驟裡，唯一「已經兌現、不是預估」的正面訊號：</strong>年增率從1月的+5.3%一路加速到8月的+30.7%，月營收連8個月幾乎沒有明顯衰退（僅2月因農曆年季節性小幅回落），且逐月墊高。這與Q2、Q3法說會給出的「稼動率提升、22/28奈米占比創新高」的說法方向一致，屬於已經在數字上兌現的成長，而不是只停留在管理層口頭展望的階段。
+  </div>
+  <p style="color:var(--ink-dim);font-size:0.85em;">snap-note：以上月營收數字取自TechNews財報快訊、科技新報對聯電各月合併營收公告的報導整理。</p>
 </section>
 
 <section id="step5">
@@ -474,8 +526,8 @@
     <strong>聲明：以下是推理與觀點，不是專業投資建議，也不構成招攬。</strong> 你目前並未持有2303（不在你的持股清單中），因此只回答「若尚未持有，會不會進場」這個情境。
   </div>
 
-  <h3 style="margin-top:28px;">核心切入點（呼應第1步現金流結論）</h3>
-  <p>第1步的結論是：<strong>現金流體質沒問題（82分，無最高警戒訊號）</strong>。所以這次的決策難點，從一開始就不是「這家公司體質好不好」，而是「你願不願意為2027年以後才會兌現的矽光子/英特爾合作故事，現在先付接近30倍2026年本益比的價格」。這兩件事要分開看：體質層面我沒有保留，估值層面我沒把握替你打包票。</p>
+  <h3 style="margin-top:28px;">核心切入點（呼應第1步現金流結論與第4步營收趨勢）</h3>
+  <p>第1步的結論是：<strong>現金流體質沒問題（82分，無最高警戒訊號）</strong>。第4步補上的月營收資料則顯示：<strong>年增率從1月+5.3%一路加速到8月+30.7%，是六步驟裡唯一已經兌現、不是預估的正面訊號</strong>。所以這次的決策難點，不是「這家公司體質好不好」或「短期成長動能有沒有」——這兩件事現有數字都站得住腳。真正的難點在於：<strong>你願不願意為2027-2028年才會兌現的矽光子/英特爾合作/新加坡擴產故事，現在先付接近30倍2026年本益比的價格</strong>。體質與短期動能層面我沒有保留，2027年以後故事的估值層面我沒把握替你打包票。</p>
 
   <h3 style="margin-top:28px;">具體、可驗證的觀察條件（尚未發生，等待驗證）</h3>
   <ul>
@@ -490,7 +542,7 @@
 </div>
 
 <footer class="meta">
-  報告版本 v2.0（第1、2、3、5、6步；第4步營收趨勢待補）｜生成時間：2026-09-08｜資料來源：第1步為使用者提供之 Goodinfo 現金流量表截圖，其餘步驟為本次網路搜尋所得財經媒體報導與FactSet法人預估調查，詳見各段落 snap-note
+  報告版本 v3.0（六步驟全部完成）｜生成時間：2026-09-09｜資料來源：第1步為使用者提供之 Goodinfo 現金流量表截圖，其餘步驟為網路搜尋所得財經媒體報導、TechNews月營收公告與FactSet法人預估調查，詳見各段落 snap-note
 </footer>
 
 <script>
